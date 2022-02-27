@@ -1,0 +1,66 @@
+.footer_bg{
+  background-image: url(../../images/footer-bg.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.input_bg{
+background-color: #C9C200;
+padding: 20px;
+margin-top: 5rem;
+}
+.subscribe{
+  
+  margin-top: 2.5rem;
+}
+.subscribe input{
+  border: none;
+  border-radius: 5px 0 0 5px;
+  padding-left: 10px;
+
+}
+.subscribe span{
+  background:#291400;
+  color: white;
+}
+.copy_right{
+  background-color: #C9C200;
+  
+}
+.footer_heading{
+  color: #C9C200;
+}
+
+.social_links {
+  font-size: 30px;
+  color: #C9C200;
+  margin: 30px;
+  padding: 20px;
+}
+.social_links {
+  font-size: 50px;
+  color: #C9C200;
+  margin: 30px;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 767px){
+    .subscribe{
+  margin-top: 1rem;
+}
+.subscribe input{
+  padding-left: 0;
+}
+}
+@media only screen and (max-width: 320px){
+   .input_bg{
+    padding: 0px;
+}
+.subscribe input{
+  padding-left: 0px;
+}
+.subscribe_top{
+  padding: 0px;
+
+}
+}

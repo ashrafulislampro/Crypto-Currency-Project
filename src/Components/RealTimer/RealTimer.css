@@ -1,0 +1,47 @@
+.real-timer{
+background-image:url('../../images/img.png');
+background-repeat:no-repeat;
+background-size: contain;
+background-position: center center;
+margin-top: 3rem;
+}
+.real_main{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.real_time-card1{
+    margin-top: 3rem;
+}
+.real_time-card1, .real_time-card2{
+    background: transparent;
+    font-family: 'Oswald', sans-serif;
+
+}
+.real_time-card2{
+    background-color: #101521a2;
+    border: 1px solid #C9C200;
+    padding: 0 30px;
+    margin: 0 40px;
+    font-family: 'Oswald', sans-serif;
+}
+.price{
+    color: #C9C200;
+}
+.ptr_price{
+    color: aqua;
+}
+.real_hed{
+        font-size: 1.5rem;
+    }
+@media screen and (max-width: 767px){
+    .real_time-card2{
+    
+    margin: 0px;
+}
+}
+@media screen and (max-width: 320px){
+    .real_hed{
+        font-size: 22px !important;
+        font-family: 'Oswald', sans-serif;
+    }
+}
